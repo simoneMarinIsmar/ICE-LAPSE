@@ -22,8 +22,11 @@ All the proposed software tools are written in Python 3 and need the following P
 Three scripts have been developed as reported below together with the corresponding input and output arguments:
 
 Scritpt Name              |  Input Arguments  |  Output
+
 estimateDiffusedLight.py  |  imgTimeSeries    |  resTimeSeries
+
 estimateActivity.py       |  imgTimeSeries    |  mask resTimeSeries
+
 estimateOsculumRadius.py  |  imgTimeSeries    |  resTimeSeries
 
 
