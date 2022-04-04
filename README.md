@@ -33,17 +33,27 @@ estimateOsculumRadius.py  |  imgTimeSeries    |  resTimeSeries
 imgTimeSeries: is a text file where each row represents an analyzed image and contains the corresponding acquisition time (year, month, day, hour, minute, second) and the full path of the image. In the case of the tool estimateOsculumRadius.py, the input image time series contains the oscua's cropped images. The image time series are formatted according to the following schema:
 
 YYYY-MM-DD hh:mm:ss imgPath
+
 .
+
 .
+
 .
+
 YYYY-MM-DD hh:mm:ss imgPath
+
 
 mask: is a binary image with the same size of the analyzed images
 
 resTimeSeries: is a text file where each row contains the acquisition time (year, month, day, hour, minute, second) of the image and the analysis result. Each row is formatted according to the following schema:
 
 YYYY-MM-DD hh:mm:ss value
+
 .
+
 .
+
 .
+
 YYYY-MM-DD hh:mm:ss value
+
